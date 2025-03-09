@@ -1,0 +1,28 @@
+.completed {
+    position: relative;
+    color: red;
+    display: inline-block;
+    font-weight: bold; /* Keeps text readable */
+    font-size: 1rem; /* Adjust size dynamically */
+    padding: 2px; /* Adds slight spacing */
+}
+
+.completed::before,
+.completed::after {
+    content: "";
+    position: absolute;
+    width: 100%; /* Ensures the "X" fits the text */
+    height: 2px;
+    background: rgba(255, 0, 0, 0.7);
+    top: 50%;
+    left: 0;
+    transform-origin: center;
+}
+
+.completed::before {
+    transform: rotate(35deg); /* Adjusted angle */
+}
+
+.completed::after {
+    transform: rotate(-35deg);
+}

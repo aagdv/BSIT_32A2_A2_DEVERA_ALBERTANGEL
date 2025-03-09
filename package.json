@@ -1,0 +1,27 @@
+{
+  "name": "todo_list_vjs",
+  "version": "1.0.0",
+  "description": "To create a dynamic, interactive to-do list application using HTML, Bootstrap for styling, and vanilla JavaScript for DOM manipulation.",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lycevm-3Alabang/TODO_LIST_VJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lycevm-3Alabang/TODO_LIST_VJS/issues"
+  },
+  "homepage": "https://github.com/Lycevm-3Alabang/TODO_LIST_VJS#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
